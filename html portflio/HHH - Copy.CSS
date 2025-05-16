@@ -1,0 +1,101 @@
+{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+body{
+    font-family: sans-serif;
+    background-color: white;
+    background-color: rgb(28, 28, 162);
+    margin-top: 6%;
+   margin-left: 40%;
+}
+.logincontainer{
+    background-color: rgb(71, 71, 173);
+    width: 400px;
+    background-color: white;
+    padding: 2rem;
+    border-radius: 10px;
+    box-shadow: 0 10px 30px rgba(0,0,0,0.1);
+    text-align: center;
+}
+.logincontainer h1{
+    font-size: 2rem;
+    margin-bottom: 1rem;
+    color:rgb(42, 42, 165) ;
+}
+.logincontainer P{
+    font-size:0.9rem ;
+    margin-bottom: 1.5rem;
+    color:#666;
+}
+
+.logincontainer input{
+    width: 60vh;
+    padding: 0.8rem;
+    margin-bottom:1rem;
+    border: 1px solid #ddd;
+    box-shadow: 0 0 5px rgba(33, 55, 101,0.4 );
+
+
+}
+.logincontainer input:focus{
+    outline: none;
+    border-color:gray;
+     
+}
+
+.login-btn{
+    width: 100%;
+    padding:0.8rem;
+    border:none;
+    border-radius: 5px;
+    font-size: 1rem;
+    background-color: rgb(67, 67, 224);
+    cursor: pointer;
+    color: white;
+    transition: background 0.3s ease;
+}
+.login-btn:hover{
+    background-color :#3b5998;
+}
+.create-account-btn{
+    background-color:#42b72a;
+    width: 100%; 
+    padding:0.8rem;
+    border:none;
+    border-radius: 5px;
+    font-size: 1rem;
+    color: white;
+    cursor: pointer;
+    transition: background 0.3s ease;
+}
+.or{
+margin: 1rem 0;
+font-size: 0.8rem;
+color:#aaa ;
+font-weight: 800;
+}
+
+.create-account{
+    margin-top: 1.5rem;
+    font-size: 0.9rem;
+    color:rgb(25, 25, 212);
+}
+.create-account-btn:hover{
+    background-color: #529645;
+}
+
+.create-account a{
+    color:rgb(8, 8, 82);
+    text-decoration:none;
+    font-weight: bold;
+}
+
+.create-account a:hover{
+    text-decoration: underline;
+
+}
+
+
